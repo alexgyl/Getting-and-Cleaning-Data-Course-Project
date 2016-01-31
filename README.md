@@ -20,3 +20,9 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Files in this Repo
+
+run_analysis.R contains the R script used to read, clean, transform and write the required data. It is to be used with RStudio or the R program itself. Place this R file in the root folder of the data set.
+
+CodeBook.md contains variable description, data description as well as the transformations used to clean the data.
