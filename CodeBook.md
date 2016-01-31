@@ -28,9 +28,9 @@ For each record in the dataset it is provided:
 
 ## Variables and Transformations Used
 
-Once all the data is read in, only variables containing the mean(mean) and standard deviation(std) of each measurement is extracted.
+Once all the data is read in, only variables containing the mean(mean) and standard deviation(std) of each measurement is extracted through the use of grep.
 
 Descriptive activity names are used over the numerical labelling.
 
-Data is grouped by activity and subject, and the average of each variable is written into a seperate text file for output.
+Data is grouped by activity and subject, and the average of each variable is written into a seperate text file for output. This is done through the dplyr package and pipelining with group_by and summarize functions.
 
