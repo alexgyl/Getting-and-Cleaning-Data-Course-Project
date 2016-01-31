@@ -24,7 +24,7 @@ subject_data = rbind(subject_train,subject_test)
 # Names of all the features
 features = read.table("features.txt")
 # Extracting all indices with mean or std
-mean_and_std = grep("([Mm]ean|[Ss]td)",features[,2])
+mean_and_std = grep("-(mean|std)\\(\\)",features[,2])
 # Subsetting data based on column number
 x_data_mean_std = x_data[,mean_and_std] 
 
